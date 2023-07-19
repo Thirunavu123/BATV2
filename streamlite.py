@@ -5,7 +5,7 @@ def main():
     st.title("Excel File Uploader")
 
     # File uploader widget
-    uploaded_file = st.file_uploader("Upload Excel file", type=["xlsx", "xls"])
+    uploaded_file = st.file_uploader("Upload Excel file2", type=["xlsx", "xls"])
 
     if uploaded_file is not None:
         try:
